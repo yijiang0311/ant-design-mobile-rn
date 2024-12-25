@@ -1,5 +1,6 @@
 import type { FormInstance as RcFormInstance } from 'rc-field-form'
-import { useForm as useRcForm } from 'rc-field-form'
+// import { useForm as useRcForm } from 'rc-field-form'
+import useRcForm from 'rc-field-form/lib/useForm'
 import * as React from 'react'
 
 import type { InternalNamePath, NamePath } from '../interface'
